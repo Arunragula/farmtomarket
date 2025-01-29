@@ -1,0 +1,247 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+      background: #28a745; /* Updated to a green color */
+      color: #fff;
+      padding: 1em 0;
+  }
+  
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 1em;
+  }
+  
+  nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  nav a:hover {
+      text-decoration: underline;
+  }
+  
+  
+  main {
+      padding: 20px;
+      max-width: 1200px; /* Limit the width of the main content */
+      margin: 0 auto; /* Center the main content */
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .banner h1 {
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  .product-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  
+  .product-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+      color: #28a745;
+      margin-bottom: 5px;
+  }
+  
+  .product-card button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  .product-card button:hover {
+      background-color: #1e7e34; /* Darker shade of green on hover */
+  }
+  
+  
+  .search-bar {
+      margin: 20px 0;
+      text-align: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+     background-color: #1e7e34;
+  }
+  
+  .sort-options {
+      margin: 20px 0;
+      text-align: center;
+  }
+  
+  .sort-options label {
+      margin-right: 10px;
+  }
+  
+  .sort-options select {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+  }
+  
+  .about {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+  }
+  
+  .about p {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 700px; /* Limit paragraph width for better readability */
+    margin: 0 auto 20px;
+  }
+  
+  
+  .team {
+      padding: 40px 20px;
+      text-align: center;
+  }
+  
+  .team h2 {
+      color: #28a745;
+      margin-bottom: 15px;
+  }
+  
+  
+  .team-members {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .member {
+      margin: 10px;
+      text-align: center;
+  }
+  .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .contact-form {
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+  }
+  
+  .contact-form h2 {
+      color: #28a745;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  
+  .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+  
+  .contact-form button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+       background-color: #1e7e34;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }

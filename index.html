@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmers' Marketplace - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <img src="images/farmtomarket.jpg" alt="Farming Banner">
+      <h1>Welcome to Farmers' Marketplace</h1>
+      <p>Your one-stop shop for farming tools, seeds, and pesticides.</p>
+    </section>
+
+    <section class="featured-products">
+      <h2>Featured Products</h2>
+      <div id="featuredProductList" class="product-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Farmers' Marketplace. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+      // Initial load of featured products
+    document.addEventListener('DOMContentLoaded', function() {
+      displayProducts(filterFeaturedProducts(), "featuredProductList");
+    });
+  </script>
+</body>
+</html>
